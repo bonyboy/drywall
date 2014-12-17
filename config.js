@@ -17,7 +17,7 @@ exports.requireAccountVerification = false;
 exports.smtp = {
   from: {
     name: process.env.SMTP_FROM_NAME || exports.projectName +' Website',
-    address: process.env.SMTP_FROM_ADDRESS || 'genemillerjr@gmail.com'
+    address: process.env.SMTP_FROM_ADDRESS || 'asdf@gmail.com'
   },
   credentials: {
     user: process.env.SMTP_USERNAME || '',
