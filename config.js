@@ -2,11 +2,11 @@
 
 exports.port = process.env.PORT || 3000;
 exports.mongodb = {
-  uri: process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'mongodb://drywalluser:drywallpassword@ds027741.mongolab.com:27741/heroku_app32611222' //'localhost/drywall'
+  uri: process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || '' //'localhost/drywall'
 };
 exports.companyName = 'Rent Certified';
 exports.projectName = 'RentCertified';
-exports.systemEmail = 'genemillerjr@gmail.com';
+exports.systemEmail = 'asdf@gmail.com';
 exports.cryptoKey = 'k3yb0ardc4t';
 exports.loginAttempts = {
   forIp: 50,
@@ -20,9 +20,9 @@ exports.smtp = {
     address: process.env.SMTP_FROM_ADDRESS || 'genemillerjr@gmail.com'
   },
   credentials: {
-    user: process.env.SMTP_USERNAME || 'postmaster@sandboxe1fb0a995b2c409c92157ddfc8462df1.mailgun.org',
-    password: process.env.SMTP_PASSWORD || '80l8heudef23',
-    host: process.env.SMTP_HOST || 'smtp.mailgun.org',
+    user: process.env.SMTP_USERNAME || '',
+    password: process.env.SMTP_PASSWORD || '',
+    host: process.env.SMTP_HOST || '',
     ssl: true
   }
 };
