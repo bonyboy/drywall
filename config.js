@@ -4,7 +4,7 @@ exports.port = process.env.PORT || 3000;
 exports.mongodb = {
   uri: process.env.MONGOLAB_URI || process.env.MONGOHQ_URL || 'mongodb://drywalluser:drywallpassword@ds027741.mongolab.com:27741/heroku_app32611222' //'localhost/drywall'
 };
-exports.companyName = 'Acme, Inc.';
+exports.companyName = 'Rent Certified';
 exports.projectName = 'RentCertified';
 exports.systemEmail = 'genemillerjr@gmail.com';
 exports.cryptoKey = 'k3yb0ardc4t';
